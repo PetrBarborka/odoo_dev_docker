@@ -5,7 +5,7 @@ Allows you to run odoo from source without installing any of the dependencies
 
 *odoo_10_dev/* contains the files needed to build the docker image (you
 don't need to do that, its on dockerhub.com/petrbarborka and the compose
-script will find it.
+script will find it. )
 
 *odoo_10_dev_compose/* is the real meat - spins up one container for docker 10
 ( from sources cloned from github into sources/ ) and another for postgresql
